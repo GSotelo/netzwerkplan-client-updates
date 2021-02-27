@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.formBox {
+  border-right: 1px solid var(--color-manatee);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.5rem;
+  width: 30%;
+  box-sizing: content-box;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.networkBox {
+  height: 100%;
+  width: 70%;
+}
